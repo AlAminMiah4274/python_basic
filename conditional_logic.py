@@ -31,3 +31,19 @@ num_greater_equal = 2 <= 3;
 6. Greaterthan or equal: >= 
 """
 
+# two string equal or not 
+large_str = 'Bangladesh' == 'Bangladesh';
+# print(large_str);
+
+small_str = 'Bangladesh' == 'bangladesh';
+# print(small_str);d
+
+my_money = 30;
+rickshaw_fare = 40;
+ride_at_rickshaw = my_money >= rickshaw_fare;
+# print(ride_at_rickshaw);
+
+my_money2 = 60;
+rickshaw_fare2 = 40;
+ride_at_rickshaw2 = my_money2 >= rickshaw_fare2;
+# print(ride_at_rickshaw2);
