@@ -111,18 +111,18 @@ saarc = ['Bangladesh', 'Afganistan', 'India', 'Bhutan', 'Nepal', 'Pakistan', 'Sr
 # print('Program terminated');
 
 # elif statement: 
-# marks = input('Please type your marks and press enter: ');
-# marks = int(marks);
-# 
-# if marks >= 80:
-    # grade = 'A+';
-# elif marks >= 70:
-    # grade = 'A';
-# elif marks >= 60:
-    # grade = 'A-';
-# elif marks >= 50:
-    # grade = 'B';
-# else:
-    # grade = 'F';
-# 
-# print('Your grade is:', grade);
+marks = input('Please type your marks and press enter: ');
+marks = int(marks);
+
+if marks >= 80:
+    grade = 'A+';
+elif marks >= 70:
+    grade = 'A';
+elif marks >= 60:
+    grade = 'A-';
+elif marks >= 50:
+    grade = 'B';
+else:
+    grade = 'F';
+
+print('Your grade is:', grade);
