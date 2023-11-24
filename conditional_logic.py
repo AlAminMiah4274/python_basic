@@ -36,7 +36,7 @@ large_str = 'Bangladesh' == 'Bangladesh';
 # print(large_str);
 
 small_str = 'Bangladesh' == 'bangladesh';
-# print(small_str);d
+# print(small_str);
 
 my_money = 30;
 rickshaw_fare = 40;
@@ -99,3 +99,30 @@ saarc_element = 'Japan' in saarc;
 
 saarc_element = 'China' not in saarc;
 # print(saarc_element);
+
+# if and else statement: 
+saarc = ['Bangladesh', 'Afganistan', 'India', 'Bhutan', 'Nepal', 'Pakistan', 'Sri Lanka'];
+# country = input('Enter the name of the country: ');
+# if country in saarc:
+#     print(country, 'is a member of SAARC');
+# else:
+#     print(country, 'is not a member of SAARC');
+
+# print('Program terminated');
+
+# elif statement: 
+# marks = input('Please type your marks and press enter: ');
+# marks = int(marks);
+# 
+# if marks >= 80:
+    # grade = 'A+';
+# elif marks >= 70:
+    # grade = 'A';
+# elif marks >= 60:
+    # grade = 'A-';
+# elif marks >= 50:
+    # grade = 'B';
+# else:
+    # grade = 'F';
+# 
+# print('Your grade is:', grade);
