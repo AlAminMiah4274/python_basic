@@ -22,6 +22,7 @@ else:
 
 print('programme terminated')
 
+# positve or negative and odd or even:
 type_validation = input('enter any number and press enter: ');
 type_validation = int(type_validation);
 
