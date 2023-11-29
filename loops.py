@@ -13,13 +13,39 @@
 # for i in range(5):
 #     print(i);
 
-import turtle
+# import turtle
 
-turtle.shape('turtle');
-turtle.speed(5);
+# turtle.shape('turtle');
+# turtle.speed(5);
 
-for i in range(4):
-    turtle.forward(100);
-    turtle.left(90);
+# for i in range(4):
+#     turtle.forward(100);
+#     turtle.left(90);
 
-turtle.exitonclick();
+# turtle.exitonclick();
+
+# loop for add 50 number**********
+
+# result = 0;
+# for i in range(50):
+#     result = result + 1;
+
+# print(result);
+
+# result = 0;
+# for i in range(20):
+#     result = result + 6;
+
+# print(result);
+
+# result = 0;
+# for i in range(85):
+#     result = result + 5;
+
+# print(result);
+
+result = 5;
+for i in range(85):
+    result = result + 4;
+
+print(result);
