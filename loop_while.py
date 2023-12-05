@@ -34,3 +34,38 @@ m = 1
 while m <= 10:
     print(n, "X", m, "=", n*m)
     m += 1
+
+import turtle
+
+turtle.color("olive")
+turtle.speed(20)
+turtle.shape("turtle")
+
+counter = 0
+while counter < 36:
+    for i in range(4):
+        turtle.forward(100)
+        turtle.right(90)
+    turtle.right(10)
+    counter += 1
+
+turtle.exitonclick();
+
+import turtle
+
+height = 14
+width = 10
+
+turtle.speed(25)
+turtle.penup()
+
+for y in range(height):
+    for x in range(width):
+        turtle.dot()
+        turtle.forward(20)
+    turtle.backward(20 * width)
+    turtle.right(90)
+    turtle.forward(20)
+    turtle.left(90)
+
+turtle.exitonclick()
