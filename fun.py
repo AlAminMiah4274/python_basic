@@ -25,8 +25,12 @@
 # print(add(5.5, 8.5));
 
 
-# to draw square box:
-import turtle
+# to draw a circle using square box:
+import turtle;
+
+turtle.speed(35);
+turtle.color("red");
+turtle.shape("turtle");
 
 def draw_square(side_length):
     for i in range(4):
@@ -34,9 +38,9 @@ def draw_square(side_length):
         turtle.left(90);
 
 counter = 0;
-while counter < 90:
-    draw_square(100);
-    turtle.right(4);
+while counter < 36:
+    draw_square(150);
+    turtle.right(10);
     counter += 1;
 
 turtle.exitonclick();
