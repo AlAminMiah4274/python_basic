@@ -46,7 +46,7 @@
 # turtle.exitonclick();
 
 # to draw a equilateral triangle: 
-import turtle;
+import turtle
 
 turtle.shape("turtle")
 turtle.speed(20)
@@ -62,4 +62,4 @@ while counter < 1:
     equilateral_triangle(200)
     counter += 1
 
-turtle.exitonclick()
+turtle.exitonclick();
