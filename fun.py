@@ -46,20 +46,72 @@
 # turtle.exitonclick();
 
 # to draw a equilateral triangle: 
-import turtle
+# import turtle
 
-turtle.shape("turtle")
-turtle.speed(20)
-turtle.color("purple")
+# turtle.shape("turtle")
+# turtle.speed(20)
+# turtle.color("purple")
 
-def equilateral_triangle(side_length):
-    for i in range(3):
-        turtle.forward(side_length)
-        turtle.left(120)
+# def equilateral_triangle(side_length):
+#     for i in range(3):
+#         turtle.forward(side_length)
+#         turtle.left(120)
 
-counter = 0
-while counter < 1:
-    equilateral_triangle(200)
-    counter += 1
+# counter = 0
+# while counter < 1:
+#     equilateral_triangle(200)
+#     counter += 1
 
-turtle.exitonclick();
+# turtle.exitonclick();
+
+# local and global variable: ********
+# def my_func(x):
+#     print("Inside my_func: ", x)
+#     x = 10
+#     print("Inside my_func: ", y)
+
+# x = 20
+# y = 50
+# my_func(x)
+# print(x)
+
+# def my_func(y):
+#     print("y =", y)
+#     print("x =", x)
+
+# x = 20
+# my_func(x)
+
+# def my_func(y):
+#     print("y =", y)
+#     print("xyz =", xyz)
+
+# xyz = 20
+# my_func(xyz)
+# print("y =", y)
+
+# default value: *****
+# def my_func(y=10):
+#     print("y =", y)
+
+# x = 40
+# my_func(x)
+# my_func()
+
+# def my_func(x, y=10, z):
+#     print("x =", x, "y =", y, "z =", z)
+
+# x = 5
+# y = 6
+# z = 7
+# my_func(x, y, z)
+
+def my_func(x, y=10, z=0):
+    print("x =", x, "y =", y, "z =", z)
+
+a = 5
+b = 6
+c = 7
+print(a, b, c)
+print(a, c)
+print(a)
