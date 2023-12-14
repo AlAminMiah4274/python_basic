@@ -106,12 +106,23 @@
 # z = 7
 # my_func(x, y, z)
 
-def my_func(x, y=10, z=0):
-    print("x =", x, "y =", y, "z =", z)
+# def my_func(x, y=10, z=0):
+#     print("x =", x, "y =", y, "z =", z)
 
-a = 5
-b = 6
-c = 7
-print(a, b, c)
-print(a, c)
-print(a)
+# a = 5
+# b = 6
+# c = 7
+# print(a, b, c)
+# print(a, c)
+# print(a)
+
+# add numbers in a list using function: 
+
+def add_numbers(numbers):
+    result = 0
+    for number in numbers:
+        result += number 
+    return result 
+
+numbers_list = add_numbers([45, 78, 45, 54])
+print(numbers_list)
