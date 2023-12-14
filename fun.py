@@ -118,11 +118,19 @@
 
 # add numbers in a list using function: 
 
-def add_numbers(numbers):
-    result = 0
-    for number in numbers:
-        result += number 
-    return result 
+# def add_numbers(numbers):
+#     result = 0
+#     for i in numbers:
+#         result += i 
+#     return result 
 
-numbers_list = add_numbers([45, 78, 45, 54])
-print(numbers_list)
+# number_list = add_numbers([45, 45, 78, 80])
+# print(number_list)
+
+def test_func(li):
+    li[0] = 10
+
+my_list = [1, 2, 3, 4]
+print("before function call: ", my_list)
+test_func(my_list)
+print("after function call: ", my_list)
