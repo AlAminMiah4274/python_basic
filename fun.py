@@ -127,10 +127,27 @@
 # number_list = add_numbers([45, 45, 78, 80])
 # print(number_list)
 
-def test_func(li):
-    li[0] = 10
+# def test_func(li):
+#     li[0] = 10
 
-my_list = [1, 2, 3, 4]
-print("before function call: ", my_list)
-test_func(my_list)
-print("after function call: ", my_list)
+# my_list = [1, 2, 3, 4]
+# print("before function call: ", my_list)
+# test_func(my_list)
+# print("after function call: ", my_list)
+
+# list1 = [1, 2, 3, 4]
+# list2 = list1
+# # print(list1)
+# # print(list2)
+
+# list2[0] = 100
+# print(list1)
+# print(list2)
+
+def add_numbers(numbers):
+    for number in numbers:
+        result = sum(numbers)
+    return result
+
+list_num = add_numbers([12, 24, 10])
+print(list_num)
