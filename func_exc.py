@@ -18,11 +18,8 @@ def average_numbers(numbers):
 my_money = average_numbers([45, 78, 19, 73, 21])
 print(my_money)
 
+num = int(input("please type an integer number: "))
 def multiply(num):
     for i in range(1, 11):
         print(num, "X", i, "=", num*i)
-        i += 1
-    
-
-mul = multiply(12)
-print(mul)
+multiply(num)
