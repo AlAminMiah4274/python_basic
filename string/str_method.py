@@ -52,4 +52,23 @@ statement_lower = statement.lower()
 
 order = "take this shirt and wash it properly. and it should be cleaned"
 cap_order = order.capitalize()
-print(cap_order)
+# print(cap_order)
+
+# split() method: ----------->
+
+speech = "I am a programmer and a software engineer"
+words = speech.split()
+# print(words)
+
+# for word in words:
+    # print(word)
+
+# count() method: ---------->
+
+proverb = "If you born poor, it is not your mistake. But if you die poor, it is your mistake"
+result = proverb.count("not")
+# print(result)
+
+nothing = 'ha ha oh oh oh pa pa pa le le le no no no ah ah ah ah ah ah bla bla bla bla. oh my god. what a nice pussy you have!'
+result = nothing.count("pussy")
+print(result)
