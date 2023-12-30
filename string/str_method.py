@@ -71,4 +71,50 @@ result = proverb.count("not")
 
 nothing = 'ha ha oh oh oh pa pa pa le le le no no no ah ah ah ah ah ah bla bla bla bla. oh my god. what a nice pussy you have!'
 result = nothing.count("pussy")
-print(result)
+# print(result)
+
+# startswith() and endswith() methods: ---------------->
+
+country_name = "Australia"
+result = country_name.startswith("Aus")
+# print(result)
+
+result = country_name.startswith("lia")
+# print(result)
+
+country_name = "Switzerland"
+result = country_name.startswith("Swi")
+# print(result)
+
+greetings = "Hi, Mr. Paul. How is going"
+result = greetings.endswith("Ing")
+# print(result)
+
+slang = "Hey you motherfucker"
+result = slang.endswith("fucker")
+# print(result)
+
+name = "Mr. Anderson"
+# if name.startswith("Mr."):
+    # print("Dear Sir")
+
+name = "Mrs. Gal Gadot"
+# if name.startswith("Mrs."):
+#     print("Dear Mam")
+
+import turtle
+
+name = turtle.textinput("Al Amin", "What is your name?")
+name = name.lower()
+
+if name.startswith("mr"):
+    print("Hello Sir, how are you?")
+
+elif name.startswith("mrs") or name.startswith("ms") or name.startswith("miss"):
+    print("Hello Madam, how are you?")
+
+else:
+    name = name.capitalize()
+    greet = "Hi " + name + "How are you?"
+
+turtle.exitonclick()
