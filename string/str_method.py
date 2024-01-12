@@ -102,19 +102,24 @@ name = "Mrs. Gal Gadot"
 # if name.startswith("Mrs."):
 #     print("Dear Mam")
 
-import turtle
+# import turtle
 
-name = turtle.textinput("Al Amin", "What is your name?")
-name = name.lower()
+# name = turtle.textinput("Name", "What is your name?")
+# name = name.lower()
 
-if name.startswith("mr"):
-    print("Hello Sir, how are you?")
+# if name.startswith("mr"):
+#     print("Hello sir, how are you?")
 
-elif name.startswith("mrs") or name.startswith("ms") or name.startswith("miss"):
-    print("Hello Madam, how are you?")
+# elif name.startswith("mrs") or name.startswith("ms") or name.startswith("miss"):
+#     print("Hello mam, how are you?")
 
-else:
-    name = name.capitalize()
-    greet = "Hi " + name + "How are you?"
+# else:
+#     name = name.capitalize()
+#     greet = "Hi " + name + ", how are you?"
+#     print(greet)
 
-turtle.exitonclick()
+# turtle.exitonclick()
+
+str = "a quick brown fox jumps over the lazy dog"
+for c in "abcdefghijklmnopqrstuvwxyz":
+    print(c, str.count(c))
